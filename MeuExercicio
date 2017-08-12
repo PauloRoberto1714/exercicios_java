@@ -1,0 +1,48 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package exercicios_java;
+import java.util.Scanner;
+
+/**
+ *
+ * @author Paulo Roberto
+ */
+public class MeuExercicio {
+    public static void main(String[]args){
+        Scanner ler = new Scanner(System.in);
+        
+        byte mult = 0;
+        byte soma = 0;
+        byte cont = 0;
+        
+        System.out.print("Soma: ");
+        do {
+            System.out.print(soma+" ");
+            if (soma == 0 ) {
+                soma++;
+            }else{
+                soma+=2;
+            }
+            cont = soma;
+            
+        } while (cont < 30);
+        
+        System.out.println("");
+        
+        System.out.print("Multiplicação: ");
+        do {
+            System.out.print(mult+" ");
+            if (mult == 0) {
+                mult++;
+            }else{
+                mult*=2;
+            }
+            cont = mult;
+            
+        } while (cont < 30);
+        
+    }
+}
