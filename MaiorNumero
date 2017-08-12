@@ -1,0 +1,28 @@
+package exercicios_java;
+import java.util.Scanner;
+
+/**
+ *
+ * @author Paulo Roberto
+ */
+
+//this is programm verify what number is larger
+public class ManiorNumero {
+    public static void main(String[]args){
+        Scanner ler = new Scanner(System.in);
+        byte a;
+        byte b;
+        
+        System.out.println("digite o valor de A");
+        a = ler.nextByte();
+        System.out.println("digite o valor de B");
+        b = ler.nextByte();
+        
+        if (a > b) {
+            System.out.println("A");
+        } else{
+            System.out.println("B");
+        }
+    }
+    
+}
