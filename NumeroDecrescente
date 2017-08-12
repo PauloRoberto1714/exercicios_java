@@ -1,0 +1,28 @@
+package exercicios_java;
+import java.util.Scanner;
+
+/**
+ *
+ * @author Paulo Roberto
+ */
+
+//this is programm do decomposition to number
+public class NumeroDecrescente {
+    public static void main(String[]args){
+        Scanner ler = new Scanner(System.in);
+        
+        byte a = 0;
+        
+        System.out.println("digite um valor para a, e este será decrescido!");
+        a = ler.nextByte();
+        
+        for (int i = a; i > 0; i--) {
+            System.out.print(i+" ");
+        }
+        
+        
+        
+        
+    }
+    
+}
