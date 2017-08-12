@@ -1,0 +1,28 @@
+package exercicios_java;
+import java.util.Scanner;
+
+//this is programm match numbers
+public class ComparaNumero {
+    public static void main(String[]args){
+        Scanner ler = new Scanner(System.in);
+        
+        byte NumA;
+        byte NumB;
+        
+        System.out.println("digite um valor para A");
+        NumA = ler.nextByte();
+        System.out.println("digite um valor para B");
+        NumB = ler.nextByte();
+        
+        if (NumA == NumB) {
+            System.out.println("A é igual a B");
+        }if (NumA != NumB) {
+            System.out.println("A é diferente de B");
+            if (NumA > NumB) {
+                System.out.println("Maior: A");
+            }else{
+                System.out.println("Maior: B");
+            }
+        }
+    }
+}
